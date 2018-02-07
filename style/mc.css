@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:400,500,700');
+body {
+  font-family: 'Changa', sans-serif;
+  font-size: 12px;
+  background-color: #f1edec;
+}
+
+.master_head {
+  background-color: #000;
+  background-image: url("assets/head-bg-d7c3cd0600046b15b4d4eeb94ea8a948.d7c3cd060004.png");
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-size: auto 514px;
+  height: 112px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.master_head .mc_logo {
+  text-align: center;
+  background-image: url("assets/580b57fcd9996e24bc43c2f5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 500px;
+  display: inline-block;
+  height: 100px;
+  margin-top: 50px;
+  z-index: 22;
+}
+
+.hero_container {
+  background: url("assets/index-hero.e528a3b1fd01.png") 50% 0 no-repeat;
+  height: 421px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.hero_container .getmc_btn {
+  background-color: #31ae1f;
+  box-shadow: 0 -4px 0 rgba(21, 108, 0, 0.5) inset, -4px 0 rgba(100, 253, 31, 0.5) inset, 4px 0 rgba(21, 108, 0, 0.5) inset, 0 4px rgba(100, 253, 31, 0.99) inset;
+  min-height: 100px;
+  width: 330px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  transition: all .5s;
+}
+
+.getmc_btn:hover {
+  transform: scale(1.2);
+  background-color: black;
+}
+
+.getmc_btn .text_big {
+  margin: 20px 0 10px;
+  font-weight: bold;
+  display: block;
+  font-size: 40px;
+}
+
+.getmc_btn .text_small {
+  margin: 10px 0 20px;
+  display: block;
+  font-size: 23px;
+}
+
+.into__text {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.into__text span {
+  margin-top: 10px;
+  display: block;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.highlighted__name {
+  color: #FF6712;
+  font-weight: bold;
+  display: inline !important;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2) !important;
+}
+
+.page__content {
+  /* background-image: url("assets/Wallpaper-minecraft_grass.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover; */
+}
+
+.inner__page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.page__content .inner__page .section {
+  padding: 50px;
+  background-color: white;
+  min-height: 100px;
+  color: #181818;
+  margin-top: 20px;
+}
+
+.section .textarea {
+  font-weight: bold;
+  color: #2796EA;
+  font-size: 26px;
+}
+
+.section .additional__textarea {
+  font-weight: bold;
+  color: #7657B6;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.section img {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  border: 12px solid #fff;
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
+}
+
+.s1 {
+  background-image: url("assets/storymode-hero-cta.558411b2fc42.png");
+  background-repeat: no-repeat;
+  background-position: top 20px left 20px;
+  background-size: 150px auto;
+}
+
+/* .step {
+ background-repeat: no-repeat;
+ background-position: center right 20px;
+}
+
+.step1 {
+ background-image: url("assets/1.png");
+}
+
+.step2 {
+ background-image: url("assets/2.png");
+}
+
+.step3 {
+ background-image: url("assets/3.png");
+} */
+
+.participation__intro span {
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.participation__intro h1.b__title {
+  font-weight: bold;
+  color: #29C4B3;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.green {
+  color: #31ae1f;
+}
+
+.coupons {
+  font-weight: bold;
+  color: #29C4B3;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.coupons span {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(45, 45, 45);
+  height: 300px;
+  margin-top: 50px;
+}
