@@ -243,3 +243,53 @@ body {
   text-align: center;
   font-weight: 400;
 }
+
+@media only screen and (min-device-width:280px) and (max-device-width:920px) {
+  .menu_header .inner_menu_header {
+    width: 100%;
+  }
+  .menu_header .inner_menu_header a:first-child {
+    margin: 0 20px 0 20px;
+  }
+  .menu_header .inner_menu_header a:hover {
+    color: #439420;
+  }
+  .hero_container {
+    width: 100%;
+  }
+  .inner__page {
+    width: 100%;
+  }
+  .section img {
+    width: 80%;
+    height: auto;
+  }
+  .inner__footer {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width:280px) and (max-device-width:520px) {
+  .master_head .mc_logo {
+    width: 90%;
+  }
+  .hero_container .getmc_btn {
+    width: 90%;
+  }
+  .menu_header {
+    height: auto;
+    text-align: center;
+  }
+  .inner_menu_header a {
+    margin: 0 0 0 0 !important;
+    display: block !important;
+  }
+  .section img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+  }
+}
