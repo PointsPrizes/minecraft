@@ -194,3 +194,17 @@ body {
   height: 300px;
   margin-top: 50px;
 }
+
+.inner__footer {
+  width: 900px;
+  margin: 0 auto;
+  color: white;
+  padding: 20px 0;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 400;
+  
+}
