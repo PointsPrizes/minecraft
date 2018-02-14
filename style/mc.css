@@ -2,7 +2,7 @@
 body {
   font-family: 'Changa', sans-serif;
   font-size: 12px;
-  background-color: #F1EDEC;
+  background-color: #F0EDE9;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -131,25 +131,36 @@ body {
   margin: 0 auto;
 }
 
+.section_title {
+  line-height: 28px;
+  background: #fbfbfb;
+  box-shadow: 0 0 12px #e6e6e6;
+  border-bottom: 1px solid #e0e0e0;
+  color: #000;
+  font-size: 19px;
+  padding: 25px 50px;
+  margin-top: 25px;
+}
+
 .page__content .inner__page .section {
   padding: 50px;
   background-color: white;
   min-height: 100px;
   color: #181818;
-  margin-top: 20px;
+  box-shadow: 0 0 9px 0 rgba(0,0,0,.05);
 }
 
-.section .textarea {
+.textarea {
   font-weight: bold;
   color: #2796EA;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .section .additional__textarea {
   font-weight: bold;
   color: #7657B6;
-  font-size: 22px;
-  margin-top: 20px;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 .section img {
@@ -164,41 +175,17 @@ body {
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
 }
 
-.s1 {
-  background-image: url("assets/storymode-hero-cta.558411b2fc42.png");
-  background-repeat: no-repeat;
-  background-position: top 20px left 20px;
-  background-size: 150px auto;
-}
-
-/* .step {
- background-repeat: no-repeat;
- background-position: center right 20px;
-}
-
-.step1 {
- background-image: url("assets/1.png");
-}
-
-.step2 {
- background-image: url("assets/2.png");
-}
-
-.step3 {
- background-image: url("assets/3.png");
-} */
-
 .participation__intro span {
-  font-size: 25px;
+  font-size: 22px;
   line-height: 30px;
   margin-bottom: 10px;
   display: block;
 }
 
-.participation__intro h1.b__title {
+h1.b__title {
   font-weight: bold;
   color: #29C4B3;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
