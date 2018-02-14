@@ -2,7 +2,11 @@
 body {
   font-family: 'Changa', sans-serif;
   font-size: 12px;
-  background-color: #f1edec;
+  background-color: #F1EDEC;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
 }
 
 .menu_header {
@@ -56,7 +60,7 @@ body {
 }
 
 .hero_container {
-  background: url("assets/index-hero.e528a3b1fd01.png") 50% 0 no-repeat;
+  background: url("assets/hero_image.jpg") 50% 0 no-repeat;
   height: 421px;
   position: relative;
   width: 100%;
